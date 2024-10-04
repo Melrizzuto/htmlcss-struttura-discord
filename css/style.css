@@ -81,12 +81,16 @@ p {
     text-align: center;
 }
 
-#hero{
-    height: 600px;
-    display: flex;
+main section:first-child{ 
     background-image: url('../img/jumbo.png') ;
     background-size: cover;
+
+}
+#hero{
+    height: 600px;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
