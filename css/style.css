@@ -1,52 +1,65 @@
 /* general */
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Whitney', sans-serif;
 }
-.debug{
+
+.debug {
     border: 1px solid red;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.d-flex{
+/* utility flex */
+.d-flex {
     display: flex;
 }
 
 /* custom properties */
 
-:root{
-    
+:root {
+    --bg-light: #F6F6F6;
+    --bg-dark: #23272a;
+    --bg-blue: #255EE9;
+    --contrast-color: #748ADB;
 }
 
 
 /* header */
 .bg-blu {
-    background-color: blue;
+    background-color: var(--bg-blue);
 }
 
 /* main */
 .bg-light {
-    background-color: lightgrey;
+    background-color: var(--bg-light);
 }
 
-.jambo-container{
+.jambo-container {
     width: 800px;
     margin: 0 auto;
 }
 
-.image{
+.image {
     width: 60%;
 }
 
-.content{
+.content {
     width: 40%;
+}
+
+/* footer */
+footer{
+    color: white;
+}
+.bg-dark {
+    background-color: var(--bg-dark);
 }
