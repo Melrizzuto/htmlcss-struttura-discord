@@ -1,0 +1,52 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Whitney', sans-serif;
+}
+.debug{
+    border: 1px solid red;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* custom properties */
+
+:root{
+    
+}
+
+
+/* header */
+.bg-blu {
+    background-color: blue;
+}
+
+/* main */
+.bg-light {
+    background-color: lightgrey;
+}
+
+.jambo-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.image{
+    width: 60%;
+}
+
+.content{
+    width: 40%;
+}
