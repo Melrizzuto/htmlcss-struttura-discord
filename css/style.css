@@ -23,6 +23,7 @@ body {
     display: flex;
 }
 
+
 /* custom properties */
 
 :root {
@@ -37,7 +38,30 @@ body {
 .bg-blu {
     background-color: var(--bg-blue);
 }
+header div{
+    padding: 10px 20px;
+}
+header div:first-child{
+    align-items: center;
+    justify-content: space-between;
+}
 
+ul{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+}
+button{
+    padding: 6px 12px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+}
 /* main */
 .bg-light {
     background-color: var(--bg-light);
