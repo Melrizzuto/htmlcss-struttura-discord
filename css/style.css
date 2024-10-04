@@ -61,15 +61,32 @@ button{
     border-color: transparent;
 }
 
-}
 /* main */
 .bg-light {
     background-color: var(--bg-light);
 }
 
+h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px;
+}
 .jambo-container {
     width: 800px;
     margin: 0 auto;
+    text-align: center;
+}
+
+#hero{
+    height: 600px;
+    display: flex;
+    background-image: url('../img/jumbo.png') ;
+    background-size: cover;
+    color: white;
 }
 
 .image {
