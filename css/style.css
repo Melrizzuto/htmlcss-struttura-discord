@@ -88,7 +88,8 @@ main div{
 }
 
 main div:last-child{
-    margin-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
 }
 
 h1{
@@ -153,11 +154,11 @@ main section:first-child{
 /* setting the four main sections  */
 
 .image {
-    width: 60%;
+    flex-basis: 60%;
 }
 
 .content {
-    width: 40%;
+    flex-basis: 40%;
 }
 
 .text-center{
