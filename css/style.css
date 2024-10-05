@@ -89,12 +89,12 @@ h2{
     font-size: 55px;
     font-weight: lighter;
 }
-p {
-    font-size: 23px;
+section p {
+    font-size: 22px;
     line-height: 29px;
     margin-top: 20px;
+    margin-bottom: 5px;
 }
-
 .jambo-container {
     width: 800px;
     margin: 0 auto;
