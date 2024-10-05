@@ -45,6 +45,11 @@ button{
     background-color: var(--bg-blue);
 }
 
+.bg-purple {
+   background-color: var(--contrast-color);
+   color: white;
+}
+
 /* color custom properties */
 
 :root {
@@ -82,6 +87,10 @@ main div{
     margin-top: 100px;
 }
 
+main div:last-child{
+    margin-top: 10px;
+}
+
 h1{
     font-size: 3em;
     margin-bottom: 20px;
@@ -91,6 +100,10 @@ h2{
     font-size: 55px;
     font-weight: lighter;
     margin-top: 100px;
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
 }
 
 section p {
@@ -153,6 +166,21 @@ main section:first-child{
 
 .image-center{
    text-align: center;
+}
+
+.bg-image{
+    width: 40%;
+    height: 46px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#btn-call{
+    margin: 0 auto;
 }
 
 /* footer */
