@@ -9,9 +9,7 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
-.debug {
-    border: 1px solid red;
-}
+
 
 .container {
     max-width: 1200px;
@@ -80,12 +78,24 @@ header ul li a{
     padding: 6px 10px;
 }
 
+header section p{
+    
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
 
 /* general settings main */
 
 main section{
     margin-top: 80px;
+    padding: 60px;
 }
+
 main div{
     margin-top: 100px;
     margin: 0 auto;
@@ -110,7 +120,7 @@ h3{
     padding-top: 10px;
 }
 
-section p {
+main section p {
     font-size: 22px;
     line-height: 29px;
     margin-top: 20px;
@@ -123,7 +133,7 @@ section p {
 
 /* settings section jambo */
 
-main section:first-child{ 
+header section:last-child{ 
     background-image: url('../img/jumbo.png') ;
     background-size: cover;
     
@@ -142,6 +152,7 @@ main section:first-child{
     padding: 5px 5px;
     border-radius: 20px;
     border-color: transparent;    
+    margin-left: 10px;
 }
 
 .btn-white{
@@ -153,7 +164,7 @@ main section:first-child{
 }
 
 .jambo-container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
@@ -179,17 +190,17 @@ main section:first-child{
 
 .bg-image{
     width: 40%;
-    height: 46px;
+    height: 44px;
     background-image: url(../img/stars.svg);
     background-size: cover;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
 #btn-call{
     margin: 0 auto;
+    margin-top: 40px;
 }
 
 /* footer */
