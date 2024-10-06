@@ -29,6 +29,9 @@ button{
     border-color: transparent;
 }
 
+.debug{
+    border: 1px solid red;
+}
 /* background color */
 
 .bg-dark {
