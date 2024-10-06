@@ -133,9 +133,8 @@ header section:last-child{
 
 /* general settings main */
 
-main section{
+svg {
     margin-top: 80px;
-    padding: 60px;
 }
 
 main div{
@@ -171,6 +170,9 @@ main section p {
 
 /* setting the four main sections  */
 
+.margin{
+    margin-top: 160px;
+}
 .image {
     flex-basis: 60%;
 }
@@ -204,6 +206,7 @@ main section p {
     margin: 0 auto;
     margin-top: 40px;
 }
+
 
 /* footer */
 footer{
