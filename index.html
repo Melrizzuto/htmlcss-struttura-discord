@@ -12,28 +12,28 @@
 <body>
     <!-- inizia header -->
     <header class="bg-blu debug">
-        <div class="container d-flex debug">
+        <nav class="container d-flex debug">
             <div>
                 <img src="./img/logo.svg" alt="Logo discord">
             </div>
             <div class="d-flex">
                 <ul class="debug d-flex">
-                    <li><a href="">Scarica</a></li>
-                    <li><a href="">Perchè Discord</a></li>
-                    <li><a href="">Nitro</a></li>
-                    <li><a href="">Sicurezza</a></li>
-                    <li><a href="">Assistenza</a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
                 </ul>
             </div>
 
             <div>
-                <button>
-                    Accedi
-                </button>
+
+                <a class="btn" href="#">Accedi</a>
+
             </div>
-        </div>
-         <!-- section jambo -->
-         <section class="bg-blu debug">
+        </nav>
+        <!-- section jambo -->
+        <section class="bg-blu debug">
             <div id="hero" class="jambo-container d-flex debug">
                 <div class="debug">
                     <h1 class="debug">
@@ -44,8 +44,8 @@
                         semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende
                         più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                     </p>
-                    <button class="btn-white debug"><span>&#129047;</span> <span>Scarica per Mac</span></button>
-                    <button class="btn-dark bg-dark debug ">Apri Discord nel tuo browser </button>
+                    <a class="btn b-oversize" href="#btn-call"><span>&#129047;</span> <span>Scarica per Mac</span></a>
+                    <a class="btn b-oversize bdark bg-dark" href="#">Apri Discord nel tuo browser</a>
                 </div>
             </div>
         </section>
@@ -54,7 +54,7 @@
     <!--inizia main -->
     <main class="debug">
 
-       
+
         <!-- first section bg white -->
         <section class="margin-top debug">
             <div class=" container d-flex debug">
@@ -75,9 +75,9 @@
             </div>
         </section>
         <!-- second section bg light -->
-        <svg class="wave-1hkxOo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="#f6f6f6"></path></svg>
+        <div class="wave"></div>
         <section class="bg-light debug">
-            <div class=" container d-flex debug"> 
+            <div class=" container d-flex debug">
                 <div class="content debug">
                     <h2>Dove trovarsi é
                         facile</h2>
@@ -91,6 +91,7 @@
                 </div>
             </div>
         </section>
+        <div class="wave-bottom"></div>
         <!-- third section bg white -->
         <section class=" margin debug">
             <div class=" container d-flex debug">
@@ -107,8 +108,8 @@
                 </div>
             </div>
         </section>
+        <div class="wave"></div>
         <!-- four section bg light -->
-        <svg class=" wave-1hkxOo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="#f6f6f6"></path></svg>
         <section class="bg-light debug">
             <div class=" container d-flex debug">
                 <div>
@@ -130,9 +131,9 @@
                     <h3>Pronto a iniziare la tua avventura?</h3>
                 </div>
                 <div class="d-flex debug">
-                    <button id="btn-call" class="bg-purple dubug">
+                    <a id="btn-call" class="btn bg-purple dubug" href="#">
                         <span>&#129047;</span> <span>Scarica per Mac</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -141,80 +142,80 @@
         <!-- top footer section -->
         <div class="container bg-dark debug">
             <section class="debug flex-around">
-                
-                    <!-- left container -->
-                    <div class="debug">
-                        <div>
-                            <h3>Il tuo posto per <br> parlare</h3>
-                        </div>
 
-                        <div id="bandiera">
-                            <img src="./img/ita.png" alt="bandiera italia">
-                            <span>Italiano</span> <span id="entity">&#5167;
-                            </span>
-                        </div>
-                        <div class=" social-icon debug">
-
-                            <img src="./img/icons8-twitter.svg" alt="">
-
-                            <img src="./img/icons8-instagram.svg" alt="">
-
-                            <img src="./img/icons8-facebook.svg" alt="">
-
-                            <img src="./img/icons8-youtube.svg" alt="">
-
-                        </div>
+                <!-- left container -->
+                <div class="debug">
+                    <div>
+                        <h3>Il tuo posto per <br> parlare</h3>
                     </div>
-                    <!-- fist list  -->
-                    <ul class="debug">
-                        <li>
-                            <h4>Prodotto</h4>
-                        </li>
-                        <li><a href="">Scarica</a></li>
-                        <li><a href="">Perchè Discord</a></li>
-                        <li><a href="">Nitro</a></li>
-                        <li><a href="">Sicurezza</a></li>
-                        <li><a href="">Assistenza</a></li>
-                    </ul>
-                    <!-- second list -->
-                    <ul class="debug">
-                        <li>
-                            <h4>Compagnia</h4>
-                        </li>
-                        <li><a href="">Chi siamo</a></li>
-                        <li><a href="">Lavora con noi</a></li>
-                        <li><a href="">Marchio</a></li>
-                        <li><a href="">Redazione</a></li>
-                        <li><a href="">Negozio</a></li>
-                    </ul>
-                    <!-- third list -->
-                    <ul class="debug">
-                        <li>
-                            <h4>Risorse</h4>
-                        </li>
-                        <li><a href="">Scarica</a></li>
-                        <li><a href="">Perchè Discord</a></li>
-                        <li><a href="">Nitro</a></li>
-                        <li><a href="">Sicurezza</a></li>
-                        <li><a href="">Assistenza</a></li>
-                        <li><a href="">Scarica</a></li>
-                        <li><a href="">Perchè Discord</a></li>
-                        <li><a href="">Nitro</a></li>
-                        <li><a href="">Sicurezza</a></li>
-                        <li><a href="">Assistenza</a></li>
-                    </ul>
-                    <!-- fourth list -->
-                    <ul class="debug">
-                        <li>
-                            <h4>Norme</h4>
-                        </li>
-                        <li><a href="">Scarica</a></li>
-                        <li><a href="">Perchè Discord</a></li>
-                        <li><a href="">Nitro</a></li>
-                        <li><a href="">Sicurezza</a></li>
-                        <li><a href="">Assistenza</a></li>
-                    </ul>
-        
+
+                    <div id="bandiera">
+                        <img src="./img/ita.png" alt="bandiera italia">
+                        <span>Italiano</span> <span id="entity">&#5167;
+                        </span>
+                    </div>
+                    <div class=" social-icon debug">
+
+                        <img src="./img/icons8-twitter.svg" alt="">
+
+                        <img src="./img/icons8-instagram.svg" alt="">
+
+                        <img src="./img/icons8-facebook.svg" alt="">
+
+                        <img src="./img/icons8-youtube.svg" alt="">
+
+                    </div>
+                </div>
+                <!-- fist list  -->
+                <ul class="debug">
+                    <li>
+                        <h4>Prodotto</h4>
+                    </li>
+                    <li><a href="">Scarica</a></li>
+                    <li><a href="">Perchè Discord</a></li>
+                    <li><a href="">Nitro</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Assistenza</a></li>
+                </ul>
+                <!-- second list -->
+                <ul class="debug">
+                    <li>
+                        <h4>Compagnia</h4>
+                    </li>
+                    <li><a href="">Chi siamo</a></li>
+                    <li><a href="">Lavora con noi</a></li>
+                    <li><a href="">Marchio</a></li>
+                    <li><a href="">Redazione</a></li>
+                    <li><a href="">Negozio</a></li>
+                </ul>
+                <!-- third list -->
+                <ul class="debug">
+                    <li>
+                        <h4>Risorse</h4>
+                    </li>
+                    <li><a href="">Scarica</a></li>
+                    <li><a href="">Perchè Discord</a></li>
+                    <li><a href="">Nitro</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Assistenza</a></li>
+                    <li><a href="">Scarica</a></li>
+                    <li><a href="">Perchè Discord</a></li>
+                    <li><a href="">Nitro</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Assistenza</a></li>
+                </ul>
+                <!-- fourth list -->
+                <ul class="debug">
+                    <li>
+                        <h4>Norme</h4>
+                    </li>
+                    <li><a href="">Scarica</a></li>
+                    <li><a href="">Perchè Discord</a></li>
+                    <li><a href="">Nitro</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Assistenza</a></li>
+                </ul>
+
             </section>
             <!-- bottom footer section -->
             <section>
@@ -223,9 +224,8 @@
                         <img src="./img/logo.svg" alt="Logo discord">
                     </div>
                     <div>
-                        <button class="bg-purple">
-                            Registrati
-                        </button>
+                        <a class="btn bg-purple" href="#">Registrati</a>
+                            
                     </div>
                 </div>
             </section>
