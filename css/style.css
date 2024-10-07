@@ -185,7 +185,7 @@ h1{
 }
 
 h2{
-    font-size: 55px;
+    font-size: 60px;
     font-weight: lighter;
 }
 h3{
@@ -207,9 +207,6 @@ main section p {
 
 /* setting the four main sections  */
 
-.margin{
-    margin-top: 160px;
-}
 
 .image {
     width: 60%;
@@ -227,12 +224,11 @@ main section p {
     text-align: center;
 }
 
-.image-center{
-    text-align: center;
-}
-
 .central-container{
-    width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
 }
 .bg-image{
     width: 40%;
@@ -264,7 +260,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     align-items: flex-start;
-    padding: 10px 50px;
+    padding: 10px 20px;
+    
 }
 
 .flex-around{
@@ -307,9 +304,6 @@ footer section div:first-child{
     text-align: left;
 }
 
-footer section:last-child{
-    border-top: 1px solid var(--contrast-color);
-}
 footer ul li a{
     text-decoration: none;
     color: white;
@@ -324,4 +318,8 @@ footer li{
 footer ul li i{
     padding-right: 25px;
     padding-top: 20px;
+}
+
+footer section:last-child{
+    border-top: 1px solid var(--contrast-color);
 }
