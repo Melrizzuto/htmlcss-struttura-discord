@@ -13,7 +13,9 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -23,8 +25,13 @@ html{
 }
 
 /* utility flex */
+
 .d-flex {
     display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 /* general setting button */
@@ -45,8 +52,9 @@ html{
 }
 
 .b-oversize{
-    padding: 10px 15px;
-    margin-left: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
 }
 
 .b-oversize:hover{
@@ -110,8 +118,7 @@ header ul li a:hover{
 }
 
 
-header section p{
-    
+header section p{  
     font-size: 20px;
     line-height: 2;
     margin-top: 20px;
@@ -142,6 +149,7 @@ header section:last-child{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
 }
 
 /* general settings main */
@@ -204,7 +212,7 @@ main section p {
 }
 
 .image {
-    flex-basis: 60%;
+    width: 60%;
 }
 
 .image img{
@@ -212,7 +220,7 @@ main section p {
 }
 
 .content {
-    flex-basis: 40%;
+    width: 40%;
 }
 
 .text-center{
@@ -257,7 +265,6 @@ footer{
     align-items: center;
     align-items: flex-start;
     padding: 10px 50px;
-    border-top: 1px solid var(--contrast-color);
 }
 
 .flex-around{
@@ -266,7 +273,6 @@ footer{
     align-items: center;
     align-items: flex-start;
     padding: 10px 2px;
-    border-top: 1px solid var(--contrast-color);
 }
 
 
@@ -287,6 +293,10 @@ footer h3, h4 {
 
 footer section div:first-child{
     text-align: left;
+}
+
+footer section:last-child{
+    border-top: 1px solid var(--contrast-color);
 }
 footer ul li a{
     text-decoration: none;
