@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Whitney', sans-serif;
 }
@@ -14,10 +18,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-}
-
-html{
-    scroll-behavior: smooth;
 }
 
 .debug{
@@ -101,7 +101,7 @@ header nav:first-child{
 }
 header button a{
     text-decoration: none;
-    color: #23272a;
+    color: var(--bg-dark);
 }
 ul{
     list-style: none;
@@ -145,7 +145,7 @@ header section:last-child{
 }
 
 
-.jambo-container {
+.jumbo-container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -153,21 +153,6 @@ header section:last-child{
 }
 
 /* general settings main */
-
-.wave{
-    background-image: url('../img/wave.svg');
-    width: 100%;
-    height: 100px;
-    opacity: 0.03;
-    margin-top: 80px;
-}
-.wave-bottom{
-    background-image: url('../img/wave.svg');
-    width: 100%;
-    height: 100px;
-    opacity: 0.03;
-    transform: rotate(180deg);
-}
 
 main div{
     margin-top: 40px;
@@ -205,8 +190,24 @@ main section p {
     text-align: start;
 }
 
-/* setting the four main sections  */
+.wave{
+    background-image: url('../img/wave.svg');
+    width: 100%;
+    height: 100px;
+    opacity: 0.03;
+    margin-top: 80px;
+}
 
+.wave-bottom{
+    background-image: url('../img/wave.svg');
+    width: 100%;
+    height: 100px;
+    opacity: 0.03;
+    transform: rotate(180deg);
+}
+
+
+/* setting the four main sections  */
 
 .image {
     width: 60%;
@@ -230,6 +231,7 @@ main section p {
     text-align: center;
     padding-top: 15px;
 }
+
 .bg-image{
     width: 40%;
     height: 44px;
@@ -251,6 +253,7 @@ main section p {
 
 
 /* footer */
+
 footer{
     color: white;
 }
@@ -284,7 +287,6 @@ footer{
 }
 
 .language{
-    display: inline-block;
     background-color: transparent;
     color: white;
     font-size: 14px;
